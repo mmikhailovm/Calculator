@@ -36,14 +36,14 @@
         <input type="button" value="7" id="seven" onclick="liveScreen(7)" />
         <input type="button" value="8" id="eight" onclick="liveScreen(8)" />
         <input type="button" value="9" id="nine" onclick="liveScreen(9)" />
-        <input type="button" value="x" onclick="liveScreen('*')" />
+        <input type="button" value="x" onclick="liveScreen('*'), new Audio('Audio/zvuk1.mp3').play()" />
       </div>
       <div class="fifth-row">
         <input type="button" value="/" onclick="liveScreen('/')" />
 
         <input type="button" value="0" id="zero" onclick="liveScreen(0)" />
         <input type="button" value="." class="dot" onclick="liveScreen('.')" />
-        <input type="button" value="=" onclick="result.value = eval(result.value)" />
+        <input type="button" value="=" onclick="result.value = eval(result.value), new Audio('Audio/zvuk.mp3').play()" />
       </div>
       <div class="bottom-buttons">
         <a href="https://github.com/zxcodes/JavaScript-Calculator"><i class="fab fa-github"></i>
